@@ -12,15 +12,38 @@ body{
 
 h1{
     font-family: Lacquer;
-    font-size:3.5em;
+    font-size:3vw;
     color:whitesmoke;
     position:absolute;
-    left:43vw
+    left:43vw;
+    
+}
+.padre{
+    background-color:#A4DBB1;
+    width:20vw;
+    height:100vh;
+    float:left;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+
+}
+a:hover{
+    font-weight:900;
+    color:darkgreen;
+    text-decoration:underline;
+
+
+}
+main{
+    padding-top:20vh;
 }
 
 main p{
-   background-color:rgba(247, 221, 221, 0.6);
-   font-size:1.3em;
+   background-color:rgba(140, 135, 135, 0.7);
+   font-size:1.2vw;
    font-weight: bold;
    text-align: justify;
    border-radius:10px;
@@ -31,4 +54,25 @@ main p{
    line-height:3.6vh;
    position:absolute;
    left:40vw;
+   
+}
+.boton span{
+    background-color:orange;
+    border-radius: 3px;
+}
+
+ul li{
+    margin:3vh;
+    font-size:1.3vw;
+    list-style: none;
+}
+
+input[type="checkbox"]{
+    margin-top:1.5vw;
+    margin-left:1.5vw;
+    
+}
+input[type="checkbox"]:checked ~ .padre{
+    background-color: lightpink;
+    
 }
