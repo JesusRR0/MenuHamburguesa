@@ -23,6 +23,7 @@ h1{
     width:20vw;
     height:100vh;
     float:left;
+    top:0;
 }
 
 a{
@@ -56,9 +57,22 @@ main p{
    left:40vw;
    
 }
+.boton{
+    z-index: 1;
+}
 .boton span{
     background-color:orange;
     border-radius: 3px;
+    width: 2vw;
+    height: 0.5vw;
+    display:block;
+    z-index:5;
+    margin-top: 0.5vh;
+    position: relative;
+    left:2vw;
+    bottom:1vw;
+       
+
 }
 
 ul li{
@@ -70,6 +84,13 @@ ul li{
 input[type="checkbox"]{
     margin-top:1.5vw;
     margin-left:1.5vw;
+    position: relative;
+    top:3vh;
+    right:1.5vw;
+    width:6vw;
+    height:6vh;
+    z-index: 10;
+    
     
 }
 input[type="checkbox"]:checked ~ .padre{
