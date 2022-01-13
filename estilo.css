@@ -8,6 +8,7 @@ body{
     background-image: url(burger.jpg);
     font-family:exo;
     background-size:100vw 100vh;
+    
 }
 
 h1{
@@ -21,9 +22,12 @@ h1{
 .padre{
     background-color:#A4DBB1;
     width:20vw;
-    height:100vh;
+    height:90vh;
+    position:relative;
+    bottom:14.5vh;
     float:left;
-    top:0;
+   
+    
 }
 
 a{
@@ -40,6 +44,8 @@ a:hover{
 }
 main{
     padding-top:20vh;
+    width:60vw;
+    
 }
 
 main p{
@@ -71,6 +77,7 @@ main p{
     position: relative;
     left:2vw;
     bottom:1vw;
+    
        
 
 }
