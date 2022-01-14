@@ -131,7 +131,7 @@ input[type="checkbox"]:checked ~ .boton .barra1{
 
 input[type="checkbox"]:checked ~ .boton .barra3{
     transform-origin: left;
-    transform:rotatez(-45deg) translate(0px,0px);
+    transform:rotatez(-45deg) translate(0px,1px);
     background-color:green;
     
     
